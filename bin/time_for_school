@@ -29,4 +29,5 @@ more_knowledge = avi.teach
 steve.learn(some_knowledge) 
 
 dean = Student.new 
-dean.learn(
+dean.learn(more_knowledge) 
+puts "Dean just learned some important stuff: '#{dean.knowledge.first}' from Avi"
