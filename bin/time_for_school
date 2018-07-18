@@ -22,9 +22,11 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Jones"
-jim.learn("Something")
+jim.learn
 
 more_knowledge = avi.teach
 
 steve.learn(some_knowledge) 
 
+dean = Student.new 
+dean.learn(
